@@ -1,9 +1,9 @@
 //////////////////// Set up and initiate svg containers ///////////////////
 
 var margin = {
-	top: 70,
+	top: 30,
 	right: 20,
-	bottom: 120,
+	bottom: 30,
 	left: 20
 };
 
