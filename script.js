@@ -55,13 +55,13 @@ var textWrapper = svg.append("g").attr("class", "textWrapper")
 //Append title to the top
 textWrapper.append("text")
 	.attr("class", "title")
-    .attr("x", 0)
-    .attr("y", -outerRadius - 40)
+    .attr("x", width/4-55)
+    .attr("y", -outerRadius - 50)
     .text("Yearly Glucose Circle");
 textWrapper.append("text")
 	.attr("class", "subtitle")
-    .attr("x", 0)
-    .attr("y", -outerRadius - 20)
+    .attr("x", width/4-55)
+    .attr("y", -outerRadius - 30)
     .text("2017");
 
 ///////////////////////////// Create Axes /////////////////////////////////
