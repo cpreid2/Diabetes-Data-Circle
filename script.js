@@ -2,9 +2,9 @@
 
 var margin = {
 	top: 30,
-	right: 20,
+	right: 0,
 	bottom: 30,
-	left: 20
+	left: 0
 };
 
 var height = window.innerHeight - margin.top - margin.bottom - 20;
